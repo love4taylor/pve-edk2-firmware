@@ -17,7 +17,7 @@ ${BUILDDIR}: ${SRCDIR}/Readme.md
 	rm -rf ${BUILDDIR}
 	cp -rpa ${SRCDIR} ${BUILDDIR}
 	cp -a debian ${BUILDDIR}
-	echo "git clone git://git.proxmox.com/git/pve-edk2-firmware.git\\ngit checkout ${GITVERSION}" > ${BUILDDIR}/debian/SOURCE
+	echo "git clone https://github.com/love4taylor/pve-edk2-firmware.git\\ngit checkout ${GITVERSION}" > ${BUILDDIR}/debian/SOURCE
 
 .PHONY: deb
 deb: ${DEB}

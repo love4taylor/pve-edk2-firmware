@@ -1,3 +1,11 @@
+pve-edk2-firmware (3.20210528-1) bullseye; urgency=medium
+
+  * use https://github.com/tianocore/edk2 as submodule
+  * update sources to upstream edk2-stable202105 tag
+  * enable TPM and Secure Boot
+
+ -- love4taylor <i@love4taylor.com>  Mon, 26 Jul 2021 23:46:01 +0800
+
 pve-edk2-firmware (3.20200531-1) bullseye; urgency=medium
 
   * re-build for Debian Bullseye / Proxmox VE 7
