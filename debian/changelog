@@ -1,3 +1,9 @@
+pve-edk2-firmware (3.20210918-1) bullseye; urgency=medium
+
+  * patch edk2 to support macOS
+
+ -- love4taylor <i@love4taylor.com>  Sat, 18 Sep 2021 17:43:23 +0800
+
 pve-edk2-firmware (3.20210827-1) bullseye; urgency=medium
 
   * update sources to upstream edk2-stable202108 tag
