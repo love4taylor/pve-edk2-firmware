@@ -18,6 +18,7 @@ ${BUILDDIR}: ${SRCDIR}/Readme.md
 	cp -rpa ${SRCDIR} ${BUILDDIR}
 	cp -a debian ${BUILDDIR}
 	echo "git clone https://github.com/love4taylor/pve-edk2-firmware.git\\ngit checkout ${GITVERSION}" > ${BUILDDIR}/debian/SOURCE
+	curl -s https://github.com/thenickdude/edk2/commit/1312511bf2ec3b61f63eefb936c0cf84ac820697.patch | patch -p1 -d ${BUILDDIR} # macOS patch #
 
 .PHONY: deb
 deb: ${DEB}
