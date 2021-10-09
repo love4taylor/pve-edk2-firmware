@@ -1,5 +1,12 @@
 # pve-edk2-firmware
 
+**PVE now officially supports TPM 1.2 and 2.0, and supports webui interactions, so the mission of this project has been accomplished.**
+
+
+![CleanShot 2021-10-09 at 17 02 13@2x](https://user-images.githubusercontent.com/6081912/136652401-efb856c2-82c3-4ad1-b69d-357e8ebc95fa.png)
+
+![CleanShot 2021-10-09 at 17 03 53@2x](https://user-images.githubusercontent.com/6081912/136652413-e784e368-5eb1-43fb-a2d6-b4dcf6f4345a.png)
+
 ```
 apt install -y bc debhelper gcc-aarch64-linux-gnu iasl nasm python3 python3-distutils uuid-dev
 git clone https://github.com/love4taylor/pve-edk2-firmware.git
